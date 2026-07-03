@@ -1,0 +1,9 @@
+class Playlist:
+    def __init__(self, name, genre):
+        self.name = name
+        self.genre = genre
+        self.songs = []
+
+p1 = Playlist("Road Trip Mix", "Pop")
+p2 = Playlist("Study Beats", "Lo-fi")
+
