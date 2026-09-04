@@ -6,6 +6,11 @@ class animal:
     def display(self):
         print("{self.name} | Habitat: {self.habitat}")
 
-class Dog(animal):
+class Parrot(animal):
     def __init__(self, name, habitat, breed):
-        self.breed = breed
+        self.name = name
+        self.habitat = habitat
+
+
+
+
